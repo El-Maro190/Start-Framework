@@ -1,0 +1,18 @@
+<div class="contact contaienr mb-4 pt-3">
+    <app-contact-star></app-contact-star>
+    <form class="p-3 mx-auto mt-5" action="">
+        <label for="userName" class="position-relative top-0" [class.hide]="checkName">userName : </label>
+        <input (input)="checkName=false" type="text" placeholder="userName" name="userName" id="userName"
+            class="form-control border-0 border-bottom py-3 position-relative w-100">
+        <label for="userAge" class="position-relative top-0" [class.hide]="checkAge">userAge : </label>
+        <input (input)="checkAge=false" type="number" placeholder="userAge" name="userAge" id="userAge"
+            class="form-control border-0 border-bottom py-3 position-relative w-100">
+        <label for="userEmail" class="position-relative top-0" [class.hide]="checkEmail">userEmail : </label>
+        <input (input)="checkEmail=false" type="email" placeholder="userEmail" name="userEmail" id="userEmail"
+            class="form-control border-0 border-bottom py-3 position-relative w-100">
+        <label for="userPassword" class="position-relative top-0" [class.hide]="checkPassword">userPassword : </label>
+        <input (input)="checkPassword=false" type="password" placeholder="userPassword" name="userPassword" id="userPassword"
+            class="form-control border-0 border-bottom py-3 position-relative w-100">
+        <button type="button" class="btn mt-4 text-white" style="background-color: #1abc9c;">send Message</button>
+    </form>
+</div>

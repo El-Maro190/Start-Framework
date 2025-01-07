@@ -1,0 +1,16 @@
+.portfolio {
+  background-color: white;
+  margin-top: 92px;
+  min-height: calc(-112px + 100vh);
+}
+
+.overlay{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+.home {
+  background-color: #1abc9c;
+  margin-top: 92px;
+  min-height: calc(-112px + 100vh);
+}
+
+img {
+  width: 250px;
+}
